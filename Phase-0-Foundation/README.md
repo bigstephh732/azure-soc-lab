@@ -94,21 +94,5 @@ This phase mirrors real-world SOC onboarding procedures.
 
 
 
-### Screenshot 1: Microsoft Entra Tenant Overview
-- Confirms successful tenant creation
-- Shows Global Administrator role assignment
-- Verifies identity platform readiness
-
-### Screenshot 2: Azure Portal Access
-- Confirms Azure portal access
-- Validates tenant-to-Azure linkage
-- Confirms readiness for SOC tooling
-
-### Screenshot 3: Microsoft Defender Settings
-- Confirms Defender portal availability
-- Shows Defender XDR and Endpoint services
-- Validates security platform initialization## PHASE 0 — FOUNDATION LAB
-
-
 
 
