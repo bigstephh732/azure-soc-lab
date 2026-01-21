@@ -23,6 +23,7 @@ Establish a secure lab environment capable of supporting SOC operations, endpoin
   ## Phase 0 Tasks Completed
 
 Environment Preparation
+
 	•	Created Microsoft 365 tenant for security testing
 	•	Configured admin access and security permissions
 	•	Verified portal access across:
@@ -30,11 +31,13 @@ Environment Preparation
 	•	Microsoft Defender Portal 
 
 Endpoint Readiness
+
 	•	Prepared macOS endpoint for Defender onboarding
 	•	Verified system prerequisites and OS compatibility
 	•	Confirmed administrative privileges for endpoint enrollment
 
 Security Platform Familiarization
+
 	•	Navigated Defender portal architecture:
 	•	Assets
 	•	Endpoints
@@ -43,6 +46,7 @@ Security Platform Familiarization
 	•	Reviewed endpoint lifecycle and telemetry flow
 
 Documentation & Lab Structure
+
 	•	Created structured lab documentation workflow
 	•	Established repeatable testing methodology
 	•	Prepared environment for SOC-focused scenarios
