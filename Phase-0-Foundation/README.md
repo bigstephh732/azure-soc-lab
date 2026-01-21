@@ -18,7 +18,7 @@ Establish a secure lab environment capable of supporting SOC operations, endpoin
 	•	GitHub (documentation)
 	•	Security telemetry validation
 
-⸻
+
 
   ## Phase 0 Tasks Completed
 
@@ -47,7 +47,7 @@ Documentation & Lab Structure
 	•	Established repeatable testing methodology
 	•	Prepared environment for SOC-focused scenarios
 
-⸻
+
 
 ## Phase 0 Outcome
 
