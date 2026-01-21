@@ -26,7 +26,7 @@ Establish a secure Microsoft cloud foundation to support a Security Operations C
 Purpose:
 Identity is the control plane of cloud security. All SOC tools depend on proper Entra configuration.
 
-⸻
+
 
 ## 2. Azure Portal Access Verification
 	•	Logged into Azure Portal successfully
@@ -38,7 +38,7 @@ Identity is the control plane of cloud security. All SOC tools depend on proper 
 Purpose:
 Ensures readiness for future SOC components such as Sentinel, Log Analytics, and VM-based telemetry.
 
-⸻
+
 
 ## 3. Microsoft Defender Portal Access
 	•	Accessed security.microsoft.com
@@ -50,7 +50,7 @@ Ensures readiness for future SOC components such as Sentinel, Log Analytics, and
 Purpose:
 Confirms tenant is recognized by Microsoft security stack and ready for endpoint onboarding.
 
-⸻
+
 
 ## 4. Role & Permissions Validation
 	•	Confirmed Global Administrator privileges
