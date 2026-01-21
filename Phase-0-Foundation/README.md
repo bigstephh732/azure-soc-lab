@@ -1,62 +1,114 @@
-## PHASE 0 — FOUNDATION LAB
+## Phase 0 – Foundation Setup
 
-Environment Setup & Security Tooling
+## Objective
 
-
-  ## Phase 0 Objective
-
-Establish a secure lab environment capable of supporting SOC operations, endpoint monitoring, and future SIEM integration.
+Establish a secure Microsoft cloud foundation to support a Security Operations Center (SOC) lab environment. This phase focuses on identity setup, tenant validation, and confirming administrative access before enabling security tooling.
 
 
 
-  ## Tools & Technologies
-	•	macOS
-	•	Microsoft Azure
-	•	Microsoft 365 Admin Center
-	•	Microsoft Defender Portal
-	•	Terminal (zsh)
-	•	GitHub (documentation)
-	•	Security telemetry validation
+## Environment
+	•	Platform: Microsoft Azure + Microsoft Entra ID
+	•	Tenant: SOC Lab (custom tenant)
+	•	Role: Global Administrator
+	•	Endpoint: macOS (primary lab device)
+	•	Browser Access: Azure Portal, Microsoft Defender Portal
 
 
 
-  ## Phase 0 Tasks Completed
+## Tasks Completed
 
-Environment Preparation
+## 1. Microsoft Entra ID Tenant Setup
+	•	Confirmed active Entra tenant
+	•	Verified tenant ID and primary domain
+	•	Confirmed global administrator role assignment
+	•	Validated user account access
 
-	•	Created Microsoft 365 tenant for security testing
-	•	Configured admin access and security permissions
-	•	Verified portal access across:
-	•	Microsoft 365 Admin Center
-	•	Microsoft Defender Portal 
-
-Endpoint Readiness
-
-	•	Prepared macOS endpoint for Defender onboarding
-	•	Verified system prerequisites and OS compatibility
-	•	Confirmed administrative privileges for endpoint enrollment
-
-Security Platform Familiarization
-
-	•	Navigated Defender portal architecture:
-	•	Assets
-	•	Endpoints
-	•	Incidents & alerts
-	•	Advanced features
-	•	Reviewed endpoint lifecycle and telemetry flow
-
-Documentation & Lab Structure
-
-	•	Created structured lab documentation workflow
-	•	Established repeatable testing methodology
-	•	Prepared environment for SOC-focused scenarios
+Purpose:
+Identity is the control plane of cloud security. All SOC tools depend on proper Entra configuration.
 
 
 
-## Phase 0 Outcome
+## 2. Azure Portal Access Verification
+	•	Logged into Azure Portal successfully
+	•	Confirmed access to:
+	•	Azure services dashboard
+	•	Resource creation options
+	•	Subscription onboarding page
 
-	•	Security lab environment successfully established
-	•	Endpoint ready for onboarding
-	•	Security portals accessible and configured
-	•	Foundation prepared for enterprise-grade detection and response work
+Purpose:
+Ensures readiness for future SOC components such as Sentinel, Log Analytics, and VM-based telemetry.
+
+
+
+## 3. Microsoft Defender Portal Access
+	•	Accessed security.microsoft.com
+	•	Verified visibility of:
+	•	Defender settings
+	•	Endpoint configuration
+	•	XDR navigation options
+
+Purpose:
+Confirms tenant is recognized by Microsoft security stack and ready for endpoint onboarding.
+
+
+
+## 4. Role & Permissions Validation
+	•	Confirmed Global Administrator privileges
+	•	Verified permissions across:
+	•	Entra ID
+	•	Defender portal
+	•	Security settings pages
+
+Purpose:
+SOC analysts must understand role-based access control (RBAC) and privilege boundaries.
+
+
+
+## Security Concepts Practiced
+	•	Identity as the security perimeter
+	•	Role-based access control (RBAC)
+	•	Tenant-level security governance
+	•	Cloud control plane validation
+	•	SOC environment preparation
+
+
+
+## Outcome
+
+The cloud identity foundation is fully operational.
+The tenant is ready for endpoint onboarding, telemetry ingestion, and security detection activities in Phase 1.
+
+
+
+## Key Takeaway
+
+Before detection and response can occur, a SOC must ensure:
+	•	Identity is secure
+	•	Roles are correct
+	•	Management portals are accessible
+	•	Logging paths can be enabled
+
+This phase mirrors real-world SOC onboarding procedures.
+
+
+
+
+
+### Screenshot 1: Microsoft Entra Tenant Overview
+- Confirms successful tenant creation
+- Shows Global Administrator role assignment
+- Verifies identity platform readiness
+
+### Screenshot 2: Azure Portal Access
+- Confirms Azure portal access
+- Validates tenant-to-Azure linkage
+- Confirms readiness for SOC tooling
+
+### Screenshot 3: Microsoft Defender Settings
+- Confirms Defender portal availability
+- Shows Defender XDR and Endpoint services
+- Validates security platform initialization## PHASE 0 — FOUNDATION LAB
+
+
+
 
