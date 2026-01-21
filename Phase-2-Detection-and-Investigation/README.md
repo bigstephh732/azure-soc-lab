@@ -37,9 +37,7 @@ Ensures the tenant is capable of receiving endpoint telemetry and generating sec
 	•	Chose Local Script deployment (1–10 devices)
 	•	Downloaded onboarding package
 	•	Executed onboarding script locally using Terminal
-
-
-sudo ./MicrosoftDefenderATPOnboardingMacOs.sh
+	sudo ./MicrosoftDefenderATPOnboardingMacOs.sh
 
 
 Entered administrator credentials
@@ -68,9 +66,7 @@ Confirms successful EDR onboarding and cloud-to-endpoint communication.
 
 ## 4. Detection Testing (EICAR Simulation)
 	•	Downloaded EICAR test file using terminal:
-
-
-curl -o ~/Downloads/eicar.com.txt https://secure.eicar.org/eicar.com.txt
+	curl -o ~/Downloads/eicar.com.txt https://secure.eicar.org/eicar.com.txt
 
 
 File used strictly for detection validation
